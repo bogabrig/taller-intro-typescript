@@ -1,3 +1,4 @@
+export { }
 // directiva @ts-expect-error
 
 interface User {
