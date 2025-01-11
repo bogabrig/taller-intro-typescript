@@ -14,6 +14,7 @@ interface Post {
 }
 
 export function createUser(): User {
+  // Qué ocurre si no declaramos el retorno? Lo infiere según lo que estemos retornando y los params de la función, si los hay.
   return {
     id: 1,
     firstName: "Matias",
