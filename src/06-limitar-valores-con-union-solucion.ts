@@ -1,4 +1,4 @@
-// Missing properties in type / ts(2379)
+// directiva @ts-expect-error
 
 interface User {
   id: number
