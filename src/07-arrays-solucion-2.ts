@@ -4,8 +4,8 @@ interface User {
   id: number;
   firstName: string;
   lastName: string;
-  role: "admin" | "user" | "super-admin";
-  posts: Array<Post>;  // Array de posts con sintaxis de generics
+  role: "admin" | "user" | "super-admin"
+  posts: Array<Post>  // Array de posts con sintaxis de generics
 }
 
 interface Post {

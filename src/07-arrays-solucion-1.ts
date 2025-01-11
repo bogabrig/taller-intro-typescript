@@ -4,8 +4,8 @@ interface User {
   id: number;
   firstName: string;
   lastName: string;
-  role: "admin" | "user" | "super-admin";
-  posts: Post[];  // Array de posts con sintaxis de corchetes
+  role: "admin" | "user" | "super-admin"
+  posts: Post[]  // Array de posts con sintaxis de corchetes
 }
 
 interface Post {

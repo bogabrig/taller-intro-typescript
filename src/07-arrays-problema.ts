@@ -4,8 +4,8 @@ interface User {
   id: number;
   firstName: string;
   lastName: string;
-  role: "admin" | "user" | "super-admin";
-  posts: Post;
+  role: "admin" | "user" | "super-admin"
+  posts: Post
 }
 
 interface Post {
