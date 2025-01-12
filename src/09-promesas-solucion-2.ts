@@ -36,3 +36,13 @@ export async function fetchCharacter() {
   // inferir como una Promise<T> del tipo que se indica
   return data as Character
 }
+
+// Hacer typecasting permite forzar que cualquier dato sea de un tipo indicado.
+// Atención: Esto no da error
+
+const matt = {} as Character
+
+// Pero si el dato no es del tipo indicado, TypeScript lo va a detectar
+// y va a dar error
+
+const jordan: Character = {}
